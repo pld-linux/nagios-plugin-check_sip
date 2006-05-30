@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Nagios plugin to check SIP server/device
-Summary(pl):	Wtyczka Nagiosa do sprawdzania urzÄ…dzeÅ„ i serwerÃ³w SIP
+Summary(pl):	Wtyczka Nagiosa do sprawdzania urz±dzeñ i serwerów SIP
 Name:		nagios-plugin-check_sip
 Version:	1.01
 Release:	0.1
@@ -19,12 +19,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_noautoreq 'perl(utils)'
 
 %description
-This plugin will test a SIP server/device for availability and response
-time.
+This plugin will test a SIP server/device for availability and
+response time.
 
 %description -l pl
-Wtyczka Nagios-a testujÄ…ca dostÄ™pnoÅ›Ä‡ i czas odpowiedzi z urzÄ…dzeÅ„ i
-serwerÃ³w SIP.
+Wtyczka Nagios-a testuj±ca dostêpno¶æ i czas odpowiedzi z urz±dzeñ i
+serwerów SIP.
 
 %prep
 %setup -q -n nagios-check_sip-%{version}
