@@ -2,7 +2,7 @@ Summary:	Nagios plugin to check SIP server/device
 Summary(pl.UTF-8):	Wtyczka Nagiosa do sprawdzania urządzeń i serwerów SIP
 Name:		nagios-plugin-check_sip
 Version:	1.3
-Release:	3
+Release:	4
 License:	GPL
 Group:		Networking
 Source0:	http://www.bashton.com/downloads/nagios-check_sip-%{version}.tar.gz
@@ -12,6 +12,7 @@ BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.654
 Requires:	nagios-core
 Requires:	nagios-plugins-libs
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_plugindir	%{_libdir}/nagios/plugins
